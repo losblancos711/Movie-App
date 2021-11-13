@@ -1,0 +1,41 @@
+.details-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.details-container .left {
+    max-width: 20%;
+    width: 100%;
+    margin: 15px 0px 15px 15px;
+}
+.details-container .right {
+    max-width: 20%;
+    width: 100%;
+    margin: 15px;
+}
+.details-container .middle {
+    max-width: 60%;
+    width: 100%;
+}
+.details-container .right img {
+    width: 100% !important;
+    height: 200px;
+}
+.actor-name {
+    text-align: center;
+    padding: 10px 5px;
+    background-color: black;
+    color: #fff;
+    opacity: 0.7;
+    margin-top: -42px;
+    font-size: 14px;
+}
+.details-page-actors {
+    display: flex;
+}
+.details-page-actors-div {
+    max-width: 50%;
+    width: 100%;
+    padding-right: 10px;
+}

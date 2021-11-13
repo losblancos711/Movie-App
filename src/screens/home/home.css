@@ -1,0 +1,81 @@
+/*ImageList Component*/
+.component-heading-home {
+    text-align: center;
+    background-color: #ff9999;
+    padding: 8px;
+}
+.component-heading-home h1 {
+    font-size: 1rem;
+}
+.css-1knyfh2-MuiImageList-root {
+    display: flex !important;
+    overflow-x: scroll !important;
+    height: auto !important;
+    align-items: flex-start !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    margin: 0 !important;
+    width: 100% !important;
+    overflow: scroll;
+}
+.MuiImageList-standard a {
+    flex: 0 0 20% !important;
+}
+.css-pxxd1-MuiImageListItem-root .MuiImageListItem-img {
+    height: 250px !important;
+    object-fit: fill !important;
+}
+/*ImageList Component End*/
+
+
+
+/*Released Movies Component*/
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    margin: 16px;
+}
+.flex-container .left {
+    max-width: 75% !important;
+    width: 100% !important;
+}
+.flex-container .left .css-pxxd1-MuiImageListItem-root .MuiImageListItem-img {
+    height: 350px !important;
+}
+.flex-container .left  .MuiImageList-standard {
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 30px !important;
+}
+
+/*Released Movies Component End*/
+
+
+
+/*Movies Filter Component*/
+
+.filters {
+    max-width: 25%;
+    width: 100% !important;
+    margin: 16px 0 16px 16px;
+}
+.css-1v3hyuc-MuiFormControl-root {
+    margin: 0 !important;
+}
+
+.MuiFormControl-fullWidth {
+    margin-bottom: 15px !important;
+}
+
+.datePicker-label label {
+    margin-bottom: 0 !important;
+}
+
+.css-1t6e9jv-MuiCardActions-root {
+    padding: 10px 0 !important;
+}
+
+/*Movies Filter Component End*/
+
